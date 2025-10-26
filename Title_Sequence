@@ -1,0 +1,11 @@
+local name = "ErikMandmaa"    -- Replace with your name
+local year = 2025  -- Change to the current year
+local key = "S"      -- Keep or change the key
+
+local part_credits = "Created by ErikMandmaa"
+local part_start_game = "Summerhouse Spiral"
+
+print(part_credits)
+print(part_start_game)
+print("Created by:", name, year)
+print("Press", key, "to begin.")

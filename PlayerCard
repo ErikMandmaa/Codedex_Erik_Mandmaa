@@ -1,0 +1,15 @@
+local MAX_LIVES = 5
+local name = "Arden"
+local character_color = "Emerald Green"
+local age = 21
+local has_sword = true
+local speed = 8.5
+local companion_name = "Luna"
+
+print("MAX_LIVES:", MAX_LIVES)
+print("Name:", name)
+print("Character Color:", character_color)
+print("Age:", age)
+print("Has Sword:", has_sword)
+print("Speed:", speed)
+print("Companion Name:", companion_name)
