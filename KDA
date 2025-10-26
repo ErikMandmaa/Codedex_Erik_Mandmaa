@@ -1,0 +1,9 @@
+local kills = 100
+local deaths = 10
+local assists = 25
+local kda = (kills + assists) / deaths
+
+print("kills:", kills)
+print("deaths:", deaths)
+print("assists:", assists)
+print("kda:", kda)

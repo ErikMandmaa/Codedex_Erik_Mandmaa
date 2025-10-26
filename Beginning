@@ -1,0 +1,11 @@
+print("Welcome hero!")
+print("Press S to skip")
+
+print("Move along, soldier.") -- player is correct
+
+-- player moves along in the course
+print("You're almost there!")
+
+--[[
+This file contains the module for creating potions in the game.
+]]
