@@ -1,0 +1,16 @@
+import random
+
+snapple_fact = random.randint(0, 5)
+
+if snapple_fact == 0:
+  print("Flamingos turn pink from eating shrimp.")
+elif snapple_fact == 1:
+  print("The only food that doesn\'t spoil is honey.")
+elif snapple_fact == 2:
+  print("Shrimp can only swim backwards.")
+elif snapple_fact == 3:
+  print("A taste bud\'s life span is about 10 days.")
+elif snapple_fact == 4:
+  print("It is impossible to sneeze while sleeping.")
+elif snapple_fact == 5:
+  print("It is illegal to sing off-key in North Carolina.")
