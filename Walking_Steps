@@ -1,0 +1,14 @@
+import numpy as np
+
+steps = np.array ([[10537, 5689, 2353, 4745, 8901, 4945, 9164],
+                 [6371, 5289, 12559, 6644, 10642, 6594, 6472]])
+
+np.min(steps,axis=1)
+np.sum(steps,axis=0)
+np.max(steps,axis=1)
+np.average(steps, axis=0)
+
+print("Minimum steps each weekday:", np.min(steps, axis=1))
+print("Total steps each day of the week:", np.sum(steps, axis=0))
+print("Maximum steps each weekday:", np.max(steps, axis=1))
+print("Average steps each day of the week:", np.average(steps, axis=0))

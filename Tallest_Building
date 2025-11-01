@@ -1,0 +1,13 @@
+import numpy as np # always import numpy as np when using numpy
+
+tallest_buildings = np.array([2717, 2227, 2073, 1972, 1966, 1819, 1776]) # heights of the tallest buildings in the world in feet
+
+tallest = np.max(tallest_buildings) # finds the tallest building
+print("The tallest building is:", tallest, "feet tall.") # prints the answer
+
+print("Heights in meters:", tallest_buildings * 0.3048) # convert heights from feet to meters
+
+tallest_in_meters = np.max(tallest_buildings * 0.3048) # finds the tallest building in meters
+print("The tallest building is:", tallest_in_meters, "meters tall.") # prints the answer
+
+
