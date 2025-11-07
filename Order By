@@ -1,0 +1,7 @@
+SELECT name, genre, stream, year
+FROM shows
+ORDER BY year DESC;
+
+SELECT name, genre, stream, year
+FROM shows
+ORDER BY tomatometer DESC;
