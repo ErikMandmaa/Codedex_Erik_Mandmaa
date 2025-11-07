@@ -1,0 +1,35 @@
+
+
+SELECT DISTINCT name, cuisine, neighborhood, price, yelp_review
+FROM restaurants
+WHERE price BETWEEN '$' AND '$$'
+  AND cuisine LIKE '%Italian%'
+  AND yelp_review >= 4.0
+
+ORDER BY yelp_review DESC;
+SELECT DISTINCT cuisine
+FROM restaurants
+ORDER BY cuisine;
+
+SELECT LOCATION
+FROM restaurants
+WHERE cuisine = 'Chinese';
+
+SELECT LOCATION
+FROM restaurants
+WHERE cuisine = 'Italian';
+
+SELECT LOCATION
+FROM restaurants
+WHERE neighborhood = 'Greenpoint';
+
+SELECT LOCATION
+FROM restaurants
+WHERE price = '$'
+ORDER BY yelp_review DESC;
+
+SELECT LOCATION
+FROM restaurants
+WHERE price = '$$$$'
+ORDER BY yelp_review DESC;
+
