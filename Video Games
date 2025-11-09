@@ -1,0 +1,12 @@
+-- columns "id", "title", "genre", "studio", "headquarters", "language", "year","metascore", "players"
+SELECT COUNT(*)
+FROM games;
+
+SELECT year, title, players
+FROM games
+WHERE players IN (
+  (SELECT MIN(players) FROM games),
+  (SELECT MAX(players) FROM games)
+);
+
+SELECT COUNT(language) FROM games;
