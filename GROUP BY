@@ -1,0 +1,11 @@
+SELECT genre, COUNT(*)
+FROM playlist
+GROUP BY genre;
+
+SELECT genre, AVG(duration)
+FROM playlist 
+GROUP BY genre;
+
+SELECT artist, AVG(plays)
+FROM playlist 
+GROUP BY artist;
