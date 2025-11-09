@@ -1,0 +1,5 @@
+SELECT AVG(plays)
+FROM playlist;
+
+SELECT AVG(duration)
+FROM playlist;
