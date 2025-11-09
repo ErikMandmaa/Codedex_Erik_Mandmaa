@@ -1,0 +1,15 @@
+SELECT MIN(plays)
+FROM playlist;
+
+SELECT title, artist, plays
+FROM playlist
+WHERE plays = (SELECT MAX(plays) FROM playlist);
+
+
+SELECT year, title, artist
+FROM playlist
+WHERE year IN (
+  (SELECT MIN(year) FROM playlist),
+  (SELECT MAX(year) FROM playlist)
+);
+
