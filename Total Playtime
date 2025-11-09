@@ -1,0 +1,5 @@
+SELECT SUM(plays)
+FROM playlist;
+
+SELECT SUM(duration)
+FROM playlist;
