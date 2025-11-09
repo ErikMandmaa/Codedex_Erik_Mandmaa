@@ -1,0 +1,20 @@
+SELECT *
+FROM playlist
+WHERE duration <= 200;
+
+SELECT *
+FROM playlist
+WHERE year <= 2000;
+
+SELECT *
+FROM playlist
+WHERE title LIKE "%God%";
+
+SELECT *
+FROM playlist
+WHERE artist LIKE "%Kesha%";
+
+
+SELECT *
+FROM playlist
+WHERE plays >= 1000000000;
